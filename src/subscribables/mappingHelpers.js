@@ -38,6 +38,7 @@
                 case "boolean":
                 case "number":
                 case "string":
+                case "bigint":
                 case "function":
                     outputProperties[indexer] = propertyValue;
                     break;
